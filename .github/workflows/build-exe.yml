@@ -24,7 +24,7 @@ jobs:
 
     - name: Compilar con PyInstaller
       run: |
-        pyinstaller --onefile --noconsole REPORTE DE MTTOS.py
+        pyinstaller --onefile --noconsole "REPORTE DE MTTOS.py"
 
     - name: Subir el archivo EXE como Artifact
       uses: actions/upload-artifact@v4
